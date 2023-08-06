@@ -122,6 +122,3 @@ void removeItem(TrieNode* root, string a)
 int main(){
 	
 }
-int main(){
-	
-}
