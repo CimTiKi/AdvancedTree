@@ -30,8 +30,8 @@ bool isTrieEmpty(TrieNode* root) {
     TrieNode* pNode = root;
     for (int i = 0; i < ALPHABET_SIZE; i++)
         if (pNode->children[i])
-            return true;
-    return false;
+            return false;
+    return true;
 }
 //Get the number of items in a trie 
 unsigned int numberOfItem(TrieNode* root) {
